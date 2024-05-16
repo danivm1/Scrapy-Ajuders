@@ -41,7 +41,7 @@ class AjudersSpider(scrapy.Spider):
     def start_requests(self) -> Iterable[Request]:
         yield FormRequest("https://ilxunwwlgr-dsn.algolia.net/1/indexes/LiveReports/query?" + urlencode(self.queryParams)
                      ,headers=self.headers
-                     ,formdata=self.formBody
+                     ,formdata=self.formBody #TODO: Adicionar paginacao -> formbody[page]
                      ,callback=self.parse
                      )
         
