@@ -1,0 +1,10 @@
+{
+  "query": "",
+  "page": 0,
+  "attributesToRetrieve": [
+    "uniqueid"
+  ],
+  "sortFacetValuesBy": "count",
+  "filters": "(ImageT:\"true\" OR ImageT:\"false\") AND (EnderecoT:\"true\" OR EnderecoT:\"false\") AND (TelefoneT:\"true\" OR TelefoneT:\"false\")",
+  "optionalFilters": ""
+}

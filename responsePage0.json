@@ -1,0 +1,985 @@
+{
+  "hits": [
+    {
+      "uniqueid": "1715881617986x364444639183183040",
+      "objectID": "7544512001",
+      "_highlightResult": {
+        "Title": {
+          "value": "Rayka, Beleza, Quinho e Barth",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Se encontravam soltos na residência, mas não conseguimos sair com todos os cães. Rayka - branca com orelha marrom, castrada e com chip supra escapular, olhos por vezes avermelhados.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Desaparecido",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "555199603880",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Rua Lavras, 720",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.3646459",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.6657692",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715878377743x256126961011870600",
+      "objectID": "7543080001",
+      "_highlightResult": {
+        "Title": {
+          "value": "Silvaneide Ramos dos Santos",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Necessidade de madeira para fazer a tesoura do telhado e de telhas, devido às chuvas que molharam e estragaram o armário da cozinha.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Casa, Mesa e Banho",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "555195576789",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Rua J, 261, Bairro Berto Cirio, Nova Santa Rita, RS, CEP 92480000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.8802381",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.2678287",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715878257723x757859513539379100",
+      "objectID": "7543079001",
+      "_highlightResult": {
+        "Title": {
+          "value": "Silvaneide Ramos dos Santos",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Necessidade de madeira para fazer a tesoura do telhado e de telhas, devido às chuvas que molharam e estragaram o armário da cozinha.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Casa, Mesa e Banho",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "555195576789",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Rua J, 261, Bairro Berto Cirio, Nova Santa Rita, RS, CEP 92480000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.8802381",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.2678287",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715878017861x487974712419403840",
+      "objectID": "6878588000",
+      "_highlightResult": {
+        "Title": {
+          "value": "David Oliveira da Silva e mais 12 pessoas",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Casa no Bairro Fátima, Canoas, foi inundada pela água. Atualmente abrigado com mais 12 pessoas e 7 cachorros.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Casa, Mesa e Banho",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "555181037120",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Bairro Meu Rincão, cidade de Esteio, Estrada dos Caetanos, nº 1101",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.8791039",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.1085364",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715870457412x230364487920190940",
+      "objectID": "7543076001",
+      "_highlightResult": {
+        "Title": {
+          "value": "Jennifer Castilhos de Oliveira",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Jennifer não foi atingida diretamente pela enchente, mas perdeu o emprego devido à situação. Está precisando de alimentos para sua família. Seu esposo faz bicos numa garagem perto de casa, mas a falta do ranchinho da igreja e a perda do emprego a prejudicaram bastante.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Alimento",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "555391800806",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Balneário dos Prazeres, Avenida Santa Catarina, 668",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-31.7367765",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-52.2216243",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715870337694x378854773912751000",
+      "objectID": "7543075001",
+      "_highlightResult": {
+        "Title": {
+          "value": "Jennifer Castilhos de Oliveira",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Jennifer não foi atingida diretamente pela enchente, mas perdeu o emprego devido à situação. Está precisando de alimentos para sua família. Seu esposo faz bicos numa garagem perto de casa, mas a falta do ranchinho da igreja e a perda do emprego a prejudicaram bastante.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Alimento",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "555391800806",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Balneário dos Prazeres, Avenida Santa Catarina, 668",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-31.7367765",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-52.2216243",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715869197458x801995759146718200",
+      "objectID": "6877863000",
+      "_highlightResult": {
+        "Title": {
+          "value": "Protetora de Animais",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "20 gatos e 6 cachorros precisam de resgate. Eles estão em uma casa, provavelmente no telhado. A dona dos animais é uma protetora que está atualmente em um ginásio e perdeu tudo.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Resgate",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "555599931391",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Rua Arambaré",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.3646459",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.6657692",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715869077426x577975321025328000",
+      "objectID": "6877862000",
+      "_highlightResult": {
+        "Title": {
+          "value": "Protetora de Animais",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "20 gatos e 6 cachorros precisam de resgate. Eles estão em uma casa, provavelmente no telhado. A dona dos animais é uma protetora que está atualmente em um ginásio e perdeu tudo.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Resgate",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "555599931391",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Rua Arambaré",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.3646459",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.6657692",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715858877568x813613365348242400",
+      "objectID": "71066002",
+      "_highlightResult": {
+        "Title": {
+          "value": "Patrícia da Proteção em Rede",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Patrícia da Proteção em Rede está ilhada com 5 gatos, dois cachorros e um coelho.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Resgate",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "5521988025800",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Rua Rolamte, Bairro Vicentina, Rexe",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.7739833",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.166621",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715856837265x913088382381150600",
+      "objectID": "7543069001",
+      "_highlightResult": {
+        "Title": {
+          "value": "Viviane Takagi Cetrone, CRMV-SP 14366",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Equipe de veterinários e voluntários com 1800 cães e mais gatos, próximo à barragem com risco de rompimento. A prefeitura solicitou evacuação. Necessidade de carreta para transporte dos animais para o Rio Grande do Sul.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Resgate",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "5511950460700",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Av. Venâncio Aires 2795, Bairro Niterói, Canoas, RS, CEP 92110-001",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.9374868",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.1748624",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715856779319x880599983594230000",
+      "objectID": "7543068001",
+      "_highlightResult": {
+        "Title": {
+          "value": "Viviane Takagi Cetrone, CRMV SP 14366",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Equipe de veterinários e voluntários com 1800 cães e mais gatos, próximo à barragem com risco de rompimento. A prefeitura solicitou evacuação.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Resgate",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "5511950460700",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Av. Venâncio Aires 2795, Bairro Niterói, Canoas, RS, CEP 92110-001",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.9374868",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.1748624",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715856777835x879466961157768600",
+      "objectID": "6877861000",
+      "_highlightResult": {
+        "Title": {
+          "value": "Viviane Takagi Cetrone, CRMV SP 14366",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Equipe de veterinários e voluntários com 1800 cães e mais gatos, próximo à barragem com risco de rompimento. A prefeitura solicitou evacuação.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Resgate",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "5511950460700",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Av. Venâncio Aires 2795, Bairro Niterói, Canoas, RS, CEP 92110-001",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.9374868",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.1748624",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715856719825x589622112318962200",
+      "objectID": "6877860000",
+      "_highlightResult": {
+        "Title": {
+          "value": "Viviane Takagi Cetrone, CRMV SP 14366",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Equipe de veterinários e voluntários com 1800 cães e mais gatos, próximo à barragem com risco de rompimento. A prefeitura solicitou evacuação.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Resgate",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "5511950460700",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Av. Venâncio Aires 2795, Bairro Niterói, Canoas, RS, CEP 92110-001",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.9374868",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.1748624",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715856718584x838864218981771900",
+      "objectID": "6877859000",
+      "_highlightResult": {
+        "Title": {
+          "value": "Viviane Takagi Cetrone, CRMV SP 14366",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Equipe de veterinários e voluntários com 1800 cães e mais gatos, próximo à barragem com risco de rompimento. A prefeitura solicitou evacuação.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Resgate",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "5511950460700",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Av. Venâncio Aires 2795, Bairro Niterói, Canoas, RS, CEP 92110-001",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.9374868",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.1748624",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715856717167x884726474720290800",
+      "objectID": "7543067001",
+      "_highlightResult": {
+        "Title": {
+          "value": "Viviane Takagi Cetrone, CRMV SP 14366",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Equipe de veterinários e voluntários com 1800 cães e mais gatos, próximo à barragem com risco de rompimento. A prefeitura solicitou evacuação.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Resgate",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "5511950460700",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Av. Venâncio Aires 2795, Bairro Niterói, Canoas, RS, CEP 92110-001",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.9374868",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.1748624",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715856657215x650909325980383100",
+      "objectID": "7543066001",
+      "_highlightResult": {
+        "Title": {
+          "value": "Viviane Takagi Cetrone",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Equipe de veterinários e voluntários com 1800 cães e mais gatos, próximo à barragem com risco de rompimento. A prefeitura solicitou evacuação.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Resgate",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "5511950460700",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Av. Venâncio Aires 2795, Bairro Niterói, Canoas, RS, CEP 92110-001",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.9374868",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.1748624",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715855097670x158436365648819680",
+      "objectID": "7543065001",
+      "_highlightResult": {
+        "Title": {
+          "value": "Patrícia da Silva Padilha",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "26 pessoas abrigadas, incluindo 8 crianças. Necessidades urgentes: colchões, roupas de cama, alimentos e ração para os animais.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Casa, Mesa e Banho",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "555198089820",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Rua Sergipe 325, Niterói, Canoas",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-29.9606553",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-51.1645621",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715837336594x602689921201375800",
+      "objectID": "6877857000",
+      "_highlightResult": {
+        "Title": {
+          "value": "Ingrid Peres Rodrigues",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Ingrid, 23 anos, faz bicos no Laranjal, mas está sem serviço devido à enchente. O esposo trabalha como autônomo e também está sem serviço. Eles têm duas filhas sob cuidado, pois a mãe das crianças não cuida delas. Estão apavorados com a situação e com os armários vazios.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Alimento",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "555384153852",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Balneário dos Prazeres, Torres, número 8867",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-31.7282756",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-52.212632",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715832416347x306945762895813000",
+      "objectID": "71059002",
+      "_highlightResult": {
+        "Title": {
+          "value": "Amanda de Paula Soria",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Necessidade de doação de alimentos e itens de higiene devido à falta de recursos financeiros causada pela chuva.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Alimento",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "555391179750",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Latitude: -31.7372424, Longitude: -52.2176895 (Pelotas, RS)",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-31.7699959",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-52.3086136",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    },
+    {
+      "uniqueid": "1715832356346x456613141321330800",
+      "objectID": "71057002",
+      "_highlightResult": {
+        "Title": {
+          "value": "Amanda de Paula Soria",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "CPF": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Description": {
+          "value": "Necessidade de doação de alimentos e itens de higiene devido à falta de recursos financeiros causada pela chuva.",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Status": {
+          "value": "Higiene e Produtos de Limpeza",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Telefone": {
+          "value": "555391179750",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationText": {
+          "value": "Latitude: -31.7372424, Longitude: -52.2176895 (Pelotas, RS)",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "-31.7699959",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "lng": {
+            "value": "-52.3086136",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    }
+  ],
+  "nbHits": 3678,
+  "page": 0,
+  "nbPages": 50,
+  "hitsPerPage": 20,
+  "exhaustiveNbHits": true,
+  "exhaustiveTypo": true,
+  "exhaustive": {
+    "nbHits": true,
+    "typo": true
+  },
+  "query": "",
+  "params": "page=0&attributesToRetrieve=%5B%22uniqueid%22%5D&sortFacetValuesBy=count&filters=%28ImageT%3A%22true%22+OR+ImageT%3A%22false%22%29+AND+%28EnderecoT%3A%22true%22+OR+EnderecoT%3A%22false%22%29+AND+%28TelefoneT%3A%22true%22+OR+TelefoneT%3A%22false%22%29",
+  "renderingContent": {},
+  "processingTimeMS": 1,
+  "processingTimingsMS": {
+    "_request": {
+      "roundTrip": 156
+    },
+    "total": 1
+  },
+  "serverTimeMS": 4
+}
