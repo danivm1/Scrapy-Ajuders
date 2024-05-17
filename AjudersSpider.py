@@ -1,5 +1,4 @@
 import scrapy
-from scrapy.crawler import CrawlerProcess
 import json
 
 class AjudeRSSpider(scrapy.Spider):
