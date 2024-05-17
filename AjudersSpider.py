@@ -1,8 +1,6 @@
 import scrapy
 from scrapy.crawler import CrawlerProcess
-
 import json
-import os
 
 class AjudeRSSpider(scrapy.Spider):
     name = "ajuders"
@@ -90,14 +88,38 @@ class AjudeRSSpider(scrapy.Spider):
     def parse_ajuders(self, response):
         data = response.json()
 
-        self._filePath = "./data.json"
-        if os.path.exists(self._filePath):
-            os.remove(self._filePath)
+        for helped_raw in data["hits"]:
+            helped_details = helped_raw["_highlightResult"]
 
-        with open(self._filePath, 'a') as f:
-            f.write(json.dumps(data)+",")
-            f.flush()
+            helped = {
+                "uniqueid": helped_raw["uniqueid"],
+                "objectID": helped_raw["objectID"],
+                "latitude": "",
+                "longitude": "",
+                "characteristics": "",
+                "cpf": "",
+                "description": "",
+                "locationtext": "",
+                "situation": response.meta["situation"],
+                "status": "",
+                "telefone": "",
+                "title": "",
+            }
 
-process = CrawlerProcess()
-process.crawl(AjudeRSSpider)
-process.start()
+            for k, v in sorted(helped_details.items()):
+                key = str(k).lower().strip()
+
+                if key == "_geoloc":
+                    geoloc = helped_details["_geoloc"]
+
+                    helped["latitude"] = geoloc.get("lat", {}).get("value")
+                    helped["longitude"] = geoloc.get("lng", {}).get("value")
+                elif key == "characteristics":
+                    helped["characteristics"] = ";".join(
+                        [value.get("value") for value in v]
+                    )
+                else:
+                    if key in helped.keys():
+                        helped[key] = v.get("value")
+
+            yield helped
