@@ -1,57 +1,103 @@
-from typing import Iterable
-
 import scrapy
-from scrapy.http import Request, Response, FormRequest
 from scrapy.crawler import CrawlerProcess
 
-from urllib.parse import urlencode
+import json
+import os
 
-
-
-class AjudersSpider(scrapy.Spider):
+class AjudeRSSpider(scrapy.Spider):
     name = "ajuders"
-    formBody = {"query":""
-               ,"page":"0"
-               ,"attributesToRetrieve":["uniqueid"]
-               ,"sortFacetValuesBy":"count"
-               ,"filters":"(ImageT:\"true\" OR ImageT:\"false\") AND (EnderecoT:\"true\" OR EnderecoT:\"false\") AND (TelefoneT:\"true\" OR TelefoneT:\"false\")"
-               ,"optionalFilters":""}
-    
-    headers = {"Accept": "*/*"
-              ,"Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8"
-              ,"Connection": "keep-alive"
-              ,"Origin": "https://app.ajuders.com.br"
-              ,"Referer": "https://app.ajuders.com.br/"
-              ,"Sec-Fetch-Dest": "empty"
-              ,"Sec-Fetch-Mode": "cors"
-              ,"Sec-Fetch-Site": "cross-site"
-              ,"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-              ,"content-type": "application/x-www-form-urlencoded"
-              ,"sec-ch-ua": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
-              ,"sec-ch-ua-mobile": "?0"
-              ,"sec-ch-ua-platform": "\"Windows\""
-              ,"x-algolia-api-key": "673c9fb9403cfbab6c423dbfd2899902"
-              ,"x-algolia-application-id": "ILXUNWWLGR"}
-    
-    queryParams = {
-        "x-algolia-agent": "Algolia%20for%20JavaScript%20(4.22.1)%3B%20Browser"
-    }
 
+    array_status = [
+        "Desaparecido",
+        "Ilhado",
+        "Abrigado",
+        "Resgate",
+        "Alimento",
+        "Água",
+        "Medicamento",
+        "Higiene e Produtos de Limpeza",
+        "Roupas ou cobertas",
+        "Ajuda de Voluntários",
+        "Casa, Mesa e Banho",
+        None
+    ]
+    array_situation = [
+        "Precisando de Ajuda",
+        "Indeterminado",
+        None
+    ]
+    array_characteristics = [
+        "Sem Água",
+        "Sem Eletricidade",
+        "Sem Comida",
+        "Ferido",
+        "Mobilidade Limitada",
+        "Grávida",
+        "Necessidades Especiais",
+        "Idoso",
+        "Criança",
+        "Recém-Nascido",
+        "Sem Medicamentos",
+        "Animais",
+        "Sem Bateria De Celular",
+        None
+    ]
 
-    def start_requests(self) -> Iterable[Request]:
-        yield FormRequest("https://ilxunwwlgr-dsn.algolia.net/1/indexes/LiveReports/query?" + urlencode(self.queryParams)
-                     ,headers=self.headers
-                     ,formdata=self.formBody #TODO: Adicionar paginacao -> formbody[page]
-                     ,callback=self.parse
-                     )
+    def start_requests(self):
+        for status in self.array_status:
+            for situation in self.array_situation:
+                for characteristic in self.array_characteristics:
+                    filters = self.parse_filters(status, situation, characteristic)
+                    yield from self.request_ajuders(filters, situation)
+
+    def request_ajuders(self, filters, situation):
+        yield scrapy.Request(
+            method="POST",
+            url="https://ilxunwwlgr-1.algolianet.com/1/indexes/LiveReports/query?x-algolia-agent=Algolia%20for%20JavaScript%20(4.22.1)%3B%20Browser",
+            body=json.dumps(
+                {
+                    "query": "",
+                    "page": 0,
+                    "hitsPerPage": 999,
+                    "attributesToRetrieve": ["uniqueid"],
+                    "sortFacetValuesBy": "count",
+                    "filters": filters,
+                    "optionalFilters": "",
+                }
+            ),
+            headers={
+                "x-algolia-application-id": "ILXUNWWLGR",
+                "x-algolia-api-key": "673c9fb9403cfbab6c423dbfd2899902",
+            },
+            callback=self.parse_ajuders,
+            meta={"situation": situation},
+        )
+
+    
+    def parse_filters(self, status, situation, characteristic):
+        filter = f'(ImageT:"true" OR ImageT:"false") AND (EnderecoT:"true" OR EnderecoT:"false") AND (TelefoneT:"true" OR TelefoneT:"false")'
+
+        if status:
+            filter += f' AND (Status:"{status}")'
+        if situation:
+            filter += f' AND (StatusSituation:"{situation}")'
+        if characteristic:
+            filter += f' AND (Characteristics:"{characteristic}")'
+
+        return filter
+    
         
-    def parse(self, response: Response) -> None:
-        with open("./data.json", mode="bw") as f:
-            #TODO: (Parse) Salvar apenas os campos com os dados das pessoas
-            f.write(response.body)
+    def parse_ajuders(self, response):
+        data = response.json()
+
+        self._filePath = "./data.json"
+        if os.path.exists(self._filePath):
+            os.remove(self._filePath)
+
+        with open(self._filePath, 'a') as f:
+            f.write(json.dumps(data)+",")
             f.flush()
 
-
 process = CrawlerProcess()
-process.crawl(AjudersSpider)
+process.crawl(AjudeRSSpider)
 process.start()
